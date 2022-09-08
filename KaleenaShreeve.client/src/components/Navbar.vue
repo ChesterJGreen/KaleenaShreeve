@@ -2,7 +2,10 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
+      </div>
+      <div>
+        <h3 class="px-3">Kaleena Shreeve:</h3>
+        <h5 class="px-3">Publishing Happiness</h5>
       </div>
     </router-link>
     <button
@@ -24,6 +27,24 @@
             class="btn text-success lighten-30 selectable text-uppercase"
           >
             About
+          </router-link>
+          <router-link
+            :to="{ name: 'Books&Art' }"
+            class="btn text-success lighten-30 selectable text-uppercase"
+          >
+            Books & Art
+          </router-link>
+          <router-link
+            :to="{ name: 'Blog' }"
+            class="btn text-success lighten-30 selectable text-uppercase"
+          >
+            Blog
+          </router-link>
+          <router-link
+            :to="{ name: 'Contact' }"
+            class="btn text-success lighten-30 selectable text-uppercase"
+          >
+            Contact
           </router-link>
         </li>
       </ul>

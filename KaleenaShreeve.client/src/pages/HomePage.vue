@@ -1,5 +1,10 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center container">
+  <div class="home flex-grow-1 d-flex flex-column container align-items-center ">
+    <div class="row">
+      <div class="col-12 ">
+        <img alt="logo" class="rounded-circle" src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" height="100" />
+      </div>
+    </div>
     <div class="home-card p-5 bg-white rounded elevation-3 row">
       <div class="col-12">
         <div class="row">
