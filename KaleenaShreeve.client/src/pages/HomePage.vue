@@ -14,7 +14,7 @@
             <img class="w-25 mx-3 rounded-circle border border-dark" src="https://th.bing.com/th/id/R.506ce96b5875a2b4ce2515a19c94f30d?rik=HmHK4w1fN4l%2feQ&riu=http%3a%2f%2fclipartix.com%2fwp-content%2fuploads%2f2016%2f04%2fAmerican-flag-united-states-flag-clipart-3-clipartcow-2.png&ehk=2uh%2fEffAtPqEiKAozxozIzyS4a0XuWVi1W60RsggWCg%3d&risl=&pid=ImgRaw&r=0">
           </div>
           <div class="col-12">
-            <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
+            <h1 class="my-5 bg-success text-white p-3 rounded text-center">
               Life &nbsp;&nbsp; Imagination &nbsp;&nbsp; Faith
           </h1>
           </div>         
