@@ -26,24 +26,14 @@
     </div>
       <div class="pb-2"><span>Christmas Novela</span>
       <div class="progress">
-        <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+        <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%">20%</div>
       </div>
     </div>
       <div class="pb-2"><span>Night Train</span>
       <div class="progress">
         <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
       </div>
-    </div>
-      <div class="pb-2"><span>Gemologist</span>
-      <div class="progress">
-        <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 3%">3%</div>
-      </div>
-    </div>
-      <div class="pb-2"><span>Country By Charm</span>
-      <div class="progress text-dark">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">0%</div><span class="px-2"></span>0%
-      </div>
-    </div>
+    </div>   
     </div>
     </div>
   </footer>

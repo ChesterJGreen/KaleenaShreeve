@@ -3,9 +3,8 @@
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
       </div>
-      <div>
-        <h3 class="px-3">Kaleena Shreeve:</h3>
-        <h5 class="px-3">Publishing Happiness</h5>
+      <div class="">
+        <img src="src\assets\img\KSLogoWide.png" class="rounded-pill w-50" alt="">
       </div>
     </router-link>
     <button
