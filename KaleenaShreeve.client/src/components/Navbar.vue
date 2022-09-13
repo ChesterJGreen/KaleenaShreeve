@@ -46,7 +46,7 @@
             <a href="http://www.instagram.com"><img width="25" src="src\assets\img\Instagram_Glyph_Black.png"></a>
           </ul>
           <ul>
-            <span class="border rounded border-2 p-1 ">
+            <span class="border border-dark rounded border-2 p-1 ">
               <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
               Join My Newsletter
             </router-link>

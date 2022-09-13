@@ -25,18 +25,18 @@ const routes = [
   {
     path: '/books-art',
     name: 'Books&Art',
-    component: loadPage('AboutPage')
+    component: loadPage('BookAndArtPage')
   },
   {
     path: '/blog',
     name: 'Blog',
-    component: loadPage('AboutPage')
+    component: loadPage('BlogPage')
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: loadPage('AccountPage')
-  }
+    component: loadPage('Contact')
+  },
 ]
 
 export const router = createRouter({
