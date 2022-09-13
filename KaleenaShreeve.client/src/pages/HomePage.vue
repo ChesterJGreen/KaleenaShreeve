@@ -1,12 +1,12 @@
 <template>
-  <div class="flex-grow-1 container-fluid mt-5">
+  <div class="container-fluid mt-5">
     <div class="row">
       <div class="col-3 mt-5">
         <img alt="logo" class="rounded w-100 my-5"
           src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" />
       </div>
       <div class="col-9 px-5 mt-5 text-center">
-        <img class="w-100 mt-5" src="src\assets\img\Stories.gif">
+        <img class="w-100 mt-5" src="src\assets\img\StoriesNoAnimation.png">
         <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
       </div>
     </div>
@@ -121,7 +121,6 @@ export default {
 
 #directionsToHappinessParent {
   position: relative;
-  width: 100vw;
 }
 
 #directionsToHappiness {
