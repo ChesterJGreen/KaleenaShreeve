@@ -13,21 +13,21 @@
                 </div>
             </div>
             <div class="col-3 pb-2 bg-success rounded">
-                <div class="py-2"><span>Stolen Heart</span>
+                <div class="pt-4 pb-3"><span>Stolen Heart</span>
                     <div class="progress">
                         <div class="progress-bar text-dark progress-bar-striped progress-bar-animated"
                             role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
                             style="width: 75%">75%</div>
                     </div>
                 </div>
-                <div class="pb-2"><span>Christmas Novela</span>
+                <div class="pb-3"><span>Christmas Novela</span>
                     <div class="progress">
                         <div class="progress-bar text-dark progress-bar-striped progress-bar-animated"
                             role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
                             style="width: 20%">20%</div>
                     </div>
                 </div>
-                <div class="pb-2"><span>Night Train</span>
+                <div class="pb-3"><span>Night Train</span>
                     <div class="progress">
                         <div class="progress-bar text-dark progress-bar-striped progress-bar-animated"
                             role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
