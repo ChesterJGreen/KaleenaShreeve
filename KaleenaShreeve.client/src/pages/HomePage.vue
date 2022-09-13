@@ -7,8 +7,46 @@
       </div>
       <div class="col-9 px-5 mt-5 text-center">
         <img class="w-100 mt-5" src="src\assets\img\Stories.gif">
-        <freeze source="src\assets\img\Stories.gif" />
-        <span class="f-28">Ready for a shot of <a class="selectable">Happiness?</a></span>
+        <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
+      </div>
+    </div>
+    <div class="row" id="directionsToHappinessParent">
+      <div class="col-4 border border-dark bg-success" id="directionsToHappiness">
+        <div class="row">
+          <div class="col-12 pt-3">
+            <span class="f-24 px-4">Directions to escape to</span><br>
+            <span class="f-24 px-4">Happiness:</span>
+            <hr />
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <br>
+            <ul>
+              <span>Read stories that inspire, uplift, and entertain you</span>
+            </ul>
+            <ul class="text-center">
+              <span> - OR -</span>
+            </ul>
+            <ul>
+              <span>Indulge in books featuring Hot cowboys + kissing that is sweet with a brush of heat -XOXO</span>
+            </ul>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </p>
       </div>
     </div>
     <div class="bg-warning mt-5 row align-items-center home">
@@ -19,7 +57,7 @@
               src="https://th.bing.com/th/id/OIP.3wtQitk5ts9AzEepDVPyLAHaIy?pid=ImgDet&rs=1">
           </div>
           <div class="col-4 px-5">
-            <img class="w-75 mx-3 rounded-circle border border-dark"
+            <img id="imaginationPic" class="mx-3 rounded-circle border border-dark"
               src="https://www.bing.com/th?id=OIP.qtxvbuVcVvPSy-vYZlLwoQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2">
           </div>
           <div class="col-4 px-5">
@@ -57,6 +95,7 @@
 export default {
   name: 'Home'
 }
+
 </script>
 
 <style scoped lang="scss">
@@ -79,4 +118,21 @@ export default {
     }
   }
 }
+
+#directionsToHappinessParent {
+  position: relative;
+  width: 100vw;
+}
+
+#directionsToHappiness {
+  position: absolute;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+#imaginationPic {
+  width: 88%;
+}
+
+
 </style>
