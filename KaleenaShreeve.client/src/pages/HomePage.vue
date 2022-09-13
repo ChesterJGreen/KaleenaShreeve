@@ -1,17 +1,18 @@
 <template>
   <div class="flex-grow-1 container-fluid mt-5">
     <div class="row">
-      <div class="col-3 ">
+      <div class="col-3 mt-5">
         <img alt="logo" class="rounded-circle w-100 my-5"
           src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" />
       </div>
-      <div class="col-9 px-5">
-        <img class="w-100 mt-5 rounded elevation-3" src="src\assets\img\Stories.png">
+      <div class="col-9 px-5 mt-5 text-center">
+        <img class="w-100 mt-5" src="src\assets\img\Stories.gif">
+        <span class="f-28">Ready for a shot of <a class="selectable">Happiness?</a></span>
       </div>
     </div>
-    <div class="bg-white mt-5 row align-items-center home">
+    <div class="bg-warning mt-5 row align-items-center home">
       <div class="col-12 p-5">
-        <div class=" bg-warning lighten-10 row p-5 rounded-pill elevation-3">
+        <div class=" lighten-10 row p-5">
           <div class="col-4 px-5">
             <img class="w-75 mx-3 rounded-circle border border-dark"
               src="https://th.bing.com/th/id/OIP.3wtQitk5ts9AzEepDVPyLAHaIy?pid=ImgDet&rs=1">
@@ -24,18 +25,18 @@
             <img class="w-75 mx-3 rounded-circle border border-dark"
               src="https://th.bing.com/th/id/R.506ce96b5875a2b4ce2515a19c94f30d?rik=HmHK4w1fN4l%2feQ&riu=http%3a%2f%2fclipartix.com%2fwp-content%2fuploads%2f2016%2f04%2fAmerican-flag-united-states-flag-clipart-3-clipartcow-2.png&ehk=2uh%2fEffAtPqEiKAozxozIzyS4a0XuWVi1W60RsggWCg%3d&risl=&pid=ImgRaw&r=0">
           </div>
-          <div class="col-4 px-5">
-            <h1 class="bg-success text-white p-3 rounded text-center">
+          <div class="col-4 px-5 mt-3">
+            <h1 class="text-white p-3 rounded text-center">
               Life
             </h1>
           </div>
-          <div class="col-4 px-5">
-            <h1 class="bg-success text-white p-3 rounded text-center">
+          <div class="col-4 px-5 mt-3">
+            <h1 class="text-white p-3 rounded text-center">
               Imagination
             </h1>
           </div>
-          <div class="col-4 px-5">
-            <h1 class="bg-success text-white p-3 rounded text-center">
+          <div class="col-4 px-5 mt-3">
+            <h1 class="text-white p-3 rounded text-center">
               Faith
             </h1>
           </div>
@@ -46,6 +47,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'Home'
 }

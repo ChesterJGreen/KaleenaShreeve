@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg px-3 header">
+    <nav class="navbar navbar-expand-lg px-5 header">
       <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
         <div class="d-flex flex-column align-items-center">
         </div>
@@ -46,8 +46,11 @@
             <a href="http://www.instagram.com"><img width="25" src="src\assets\img\Instagram_Glyph_Black.png"></a>
           </ul>
           <ul>
-            <!-- LOGIN COMPONENT HERE -->
-            <Login />
+            <span class="border rounded border-2 p-1 ">
+              <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
+              Join My Newsletter
+            </router-link>
+            </span>
           </ul>
         </ul>
       </div>
