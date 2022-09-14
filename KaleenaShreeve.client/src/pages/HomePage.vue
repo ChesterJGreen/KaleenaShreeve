@@ -6,7 +6,7 @@
           src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" />
       </div>
       <div class="col-9 px-5 mt-5 text-center">
-        <img class="w-100 mt-5" src="src\assets\img\StoriesNoAnimation.png">
+        <img class="w-100 mt-5" src="src\assets\img\Stories.gif">
         <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
       </div>
     </div>
@@ -14,14 +14,15 @@
       <div class="col-4 border border-dark bg-success" id="directionsToHappiness">
         <div class="row">
           <div class="col-12 pt-3">
-            <span class="f-24 px-4">Directions to escape to</span><br>
-            <span class="f-24 px-4">Happiness:</span>
+            <span class="f-24 px-4 white-text-shadow">Directions to escape to</span><br>
+            <span class="f-24 px-4 white-text-shadow">Happiness:</span>
+            <Particles />
             <hr />
             <hr />
           </div>
         </div>
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center white-text-shadow">
             <br>
             <ul>
               <span>Read stories that inspire, uplift, and entertain you</span>
@@ -65,17 +66,17 @@
               src="https://th.bing.com/th/id/R.506ce96b5875a2b4ce2515a19c94f30d?rik=HmHK4w1fN4l%2feQ&riu=http%3a%2f%2fclipartix.com%2fwp-content%2fuploads%2f2016%2f04%2fAmerican-flag-united-states-flag-clipart-3-clipartcow-2.png&ehk=2uh%2fEffAtPqEiKAozxozIzyS4a0XuWVi1W60RsggWCg%3d&risl=&pid=ImgRaw&r=0">
           </div>
           <div class="col-4 px-5 mt-3">
-            <h1 class="text-white p-3 rounded text-center">
+            <h1 class="text-white p-3 rounded text-center black-text-shadow">
               Life
             </h1>
           </div>
           <div class="col-4 px-5 mt-3">
-            <h1 class="text-white p-3 rounded text-center">
+            <h1 class="text-white p-3 rounded text-center black-text-shadow">
               Imagination
             </h1>
           </div>
           <div class="col-4 px-5 mt-3">
-            <h1 class="text-white p-3 rounded text-center">
+            <h1 class="text-white p-3 rounded text-center black-text-shadow">
               Faith
             </h1>
           </div>
@@ -86,18 +87,15 @@
 </template>
 
 <script>
+import Particles from "../components/Particles.vue";
 
-// import Vue from 'vue'
-// import VueFreezeGif from 'vue-freeze-gif'
-// import 'vue-freeze-gif/lib/vue-freeze-gif.css'
-
-// Vue.component('freeze', VueFreezeGif);
 export default {
-  name: 'Home'
+    name: "Home",
+    components: { Particles }
 }
 
 </script>
-
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <style scoped lang="scss">
 .home {
   display: grid;
