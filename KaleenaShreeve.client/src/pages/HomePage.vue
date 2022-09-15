@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-5">
+  <div class="flex-grow-1 container-fluid mt-5">
     <div class="row">
       <div class="col-3 mt-5">
         <img alt="logo" class="rounded w-100 my-5"
@@ -119,6 +119,7 @@ export default {
 
 #directionsToHappinessParent {
   position: relative;
+  width: 100vw;
 }
 
 #directionsToHappiness {
